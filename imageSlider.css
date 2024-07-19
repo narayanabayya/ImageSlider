@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+}
+.slider{
+    position: relative;
+    height: 700px;
+    width: 1250px;
+    background-color:aliceblue;
+    border-radius: 20px;
+    box-shadow: 0 0 15px 5px rgba(0,0,0,0.5);
+    padding: 25px;
+}
+.left{
+    position: absolute;
+    left: 5px;
+    top: 50%;
+    font-size: large;
+    cursor: pointer;
+}
+.right{
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    font-size: large;
+    cursor: pointer;
+}
+img{
+    height: 650px;
+    width: 1200px;
+}
